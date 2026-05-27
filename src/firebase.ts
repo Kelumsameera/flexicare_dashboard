@@ -7,6 +7,6 @@ const firebaseConfig = {
   projectId: "esp-project-ebe94",
 };
 
-// Firebase ආරම්භ කිරීම
+// Firebase initialization
 const app = initializeApp(firebaseConfig);
 export const database = getDatabase(app);
