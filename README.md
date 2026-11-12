@@ -43,6 +43,6 @@ The build command runs `tsc -b && vite build`. Use `npm run preview` to inspect 
 - Set Firebase public client configuration through your chosen Vite environment settings. Firebase API keys on the client are not security boundaries; enforce access using Firebase security rules and server permissions.
 - Do not commit Wi-Fi passwords, service account keys, admin private keys or other secrets.
 - Verify data paths, account permissions, factory network access and offline behavior before deployment.
-- The current repository has an empty tracked `.env`; do not add real values to it.
+- The previously empty tracked `.env` was removed. Local `.env` files are ignored; do not commit real credentials.
 
 This README change does not claim that production connectivity or test execution has been verified.
